@@ -1,10 +1,10 @@
-/* LoginForm.css */
+
 .login-container {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f5f5f5;
+    background-color: #77c2b2;
     padding: 20px;
   }
   
