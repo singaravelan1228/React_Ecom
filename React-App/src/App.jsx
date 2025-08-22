@@ -12,7 +12,7 @@ import Contact from "./pages/Contact";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 
-const AppContent = () => {
+const AppContent = () => { 
   const location = useLocation();
   
   const showFooterPaths = ["/", "/about"];
