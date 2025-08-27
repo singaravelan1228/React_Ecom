@@ -1,0 +1,131 @@
+
+.navbar {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #155f4e;
+  color: rgb(255, 255, 255);
+  padding: 1.2rem 1.5rem 30px;
+  position: relative;
+  z-index: 10;
+  font-family: sans-serif;
+}
+
+.navbar a {
+  text-size-adjust: 10%;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: 700;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Active link */
+.navbar a.active {
+  border-bottom: 2px solid #00bcd4;
+}
+
+/* Left, Center, Right layout */
+.nav-left,
+.nav-center,
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Search */
+.search-input {
+  position: relative;
+  padding: 0.3rem 0.6rem;
+  border: none;
+  border-radius:8px;
+  outline: none;
+  top: 10px;
+  width: 300px;
+  height: 20px;
+  
+}
+
+.search-btn {
+  height: 30px;
+  background-color: #077766;
+  border: none;
+  padding: 1.3rem 2.6rem;
+  border-radius: 10px;
+  padding: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -19.6px;
+  left: 295px;
+}
+
+.search-btn:hover {
+  background-color: #0097a7;
+}
+
+/* Menu icon button */
+.menu-icon {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Mobile menu */
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  background-color: #2c2c2c;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  z-index: 9;
+}
+
+.mobile-menu a {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.mobile-menu hr {
+  border: 0.5px solid #555;
+  margin: 1rem 0;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .nav-center,
+  .nav-right,
+  .nav-links {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .mobile-menu {
+    display: flex;
+  }
+}

@@ -1,0 +1,77 @@
+[
+    {
+      "id": 1,
+      "name": "Ginger",
+      "quantity":"250g",
+      "price": "₹29",
+      "image": "src/assets/jinger.webp"
+    },
+    {
+      "id": 2,
+      "name": "Pattai",
+      "quantity":"250g",
+      "price": "₹49",
+      "image": "src/assets/pattai.jpg"
+    },
+
+    {
+      "id": 3,
+      "name": "Sompu",
+      "quantity":"250g",
+      "price": "₹49",
+      "image": "src/assets/sompu.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Rice powder",
+      "quantity":"1kg",
+      "price": "₹69",
+      "image": "src/assets/Rice powder.png"
+    },
+    {
+      "id": 5,
+      "name": "Groundnut Oil",
+      "quantity":"1L",
+      "price": "₹121",
+      "image": "src/assets/oil.png"
+    },
+    {
+      "id": 6,
+      "name": "Egg",
+      "quantity":"30pc",
+      "price": "₹239",
+      "image": "src/assets/Egg.png"
+    },
+    {
+      "id": 7,
+      "name": "Rice",
+      "quantity":"500g",
+      "price": "₹55",
+      "image": "src/assets/Rice.png"
+    },
+    {
+      "id": 8,
+      "name": "Oats",
+      "price": "₹70",
+      "quantity" :"500g",
+      "image": "src/assets/oats.png"
+    },
+    {
+      "id": 9,
+      "quantity" :"500g",
+      "name": "Red chilli",
+      "price": "₹33",
+      "image": "src/assets/Red chilli.png"
+
+    },
+    {
+      "id": 10,
+      "name": "Ketchup",
+      "quantity" :"500ML",
+      "price": "₹50",
+      "image": "src/assets/ketchup.png"
+
+    }
+
+
+  ]
