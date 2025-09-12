@@ -27,7 +27,7 @@ const Cart = () => {
             <img src={item.image} alt={item.name} />
             <div className="cart-item-details">
               <h3>{item.name}</h3>
-              <p className="price">Price: ${item.price}</p>
+              <p className="price">Price:{item.price}</p>
               <p className="quantity">
                 Quantity: 
                 <button className="qty-btn" onClick={() => decrementQuantity(item.id)}>-</button>
