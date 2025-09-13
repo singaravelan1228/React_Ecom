@@ -1,0 +1,71 @@
+[
+    {
+      "id": 1,
+      "name": "Jinger",
+      "price": "$9",
+      "image": "src/assets/jinger.webp"
+    },
+    {
+      "id": 2,
+      "name": "Pattai",
+      "price": "$2.5",
+      "image": "src/assets/pattai.jpg"
+    },
+
+    {
+      "id": 3,
+      "name": "Sompu",
+      "price": "$4",
+      "image": "src/assets/sompu.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Rice powder",
+      "price": "$7",
+      "image": "src/assets/Rice powder.png"
+    },
+    {
+      "id": 5,
+      "name": "Oil",
+      "price": "$24",
+      "image": "src/assets/oil.png"
+    },
+    {
+      "id": 6,
+      "name": "Egg",
+      "price": "$8",
+      "image": "src/assets/Egg.png"
+    },
+    {
+      "id": 7,
+      "name": "Rice",
+      "price": "$4",
+      "image": "src/assets/Rice.png"
+    },
+    {
+      "id": 8,
+      "name": "Oats",
+      "price": "$9",
+      "image": "src/assets/oats.png"
+    },
+    {
+      "id": 9,
+      "name": "Red chilli",
+      "price": "$4",
+      "image": "src/assets/Red chilli.png"
+    },
+    {
+      "id": 10,
+      "name": "Ketchup",
+      "price": "$4",
+      "image": "src/assets/ketchup.png"
+    }
+    ,
+    {
+      "id": 10,
+      "name": "Ketchup",
+      "price": "$4.9",
+      "image": "src/assets/ketchup.png"
+    }
+
+  ]

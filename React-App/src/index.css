@@ -1,0 +1,22 @@
+.card{
+  font-family: sans-serif  ;
+  background-color: rgb(214, 138, 37);
+  max-width: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  display: inline-block;
+  margin: 10px;
+  padding: 2px;
+  text-align: center;
+ 
+
+}
+
+.card img{
+  width: 200px;
+  
+}
+.card h3{
+  overflow:hidden;
+}
